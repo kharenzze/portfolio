@@ -1,3 +1,6 @@
+/**
+ * Resource by https://undraw.co/
+ */
 import React from 'react'
 
 export const WIP = ({ color = '#666666' }) => {
