@@ -8,6 +8,7 @@ const WIPImage = styled(WIP)`
   max-width: 500px;
   width: 50%;
   height: auto;
+  margin-top: 100px;
 `
 
 export default function Home() {
@@ -18,9 +19,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico"/>
       </Head>
       <Row className="centered">
-          <h1>
-            Paolo Raez
-          </h1>
+          <h1>Paolo Raez</h1>
+      </Row>
+      <Row className="centered">
+        <span>This portfolio site is under construction...</span>
       </Row>
       <Row className="centered">
         <WIPImage/>
