@@ -1,18 +1,18 @@
 import Head from 'next/head'
+import { Row, Main } from "../components/layout";
 
 export default function Home() {
   return (
-    <div className="container">
+    <Main>
       <Head>
         <title>Kharenzze</title>
         <link rel="icon" href="/favicon.ico"/>
       </Head>
-
-      <main>
+      <Row className="centered">
         <h1>
           Paolo Raez
         </h1>
-      </main>
-    </div>
+      </Row>
+    </Main>
   )
 }
