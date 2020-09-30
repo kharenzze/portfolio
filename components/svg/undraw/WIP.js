@@ -3,9 +3,9 @@
  */
 import React from 'react'
 
-export const WIP = ({ color = '#666666' }) => {
+export const WIP = ({ color = '#666666', className = '' }) => {
   return (
-    <svg id="bc9a08c1-44e1-4318-b7fa-17639594539b" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+    <svg id="bc9a08c1-44e1-4318-b7fa-17639594539b" className={className} data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
          width="944.07806" height="698.0858" viewBox="0 0 944.07806 698.0858"><title>WIP</title>
       <circle cx="397" cy="273.146" r="130" fill="#6c63ff"/>
       <path
