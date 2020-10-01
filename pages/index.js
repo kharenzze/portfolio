@@ -25,7 +25,7 @@ export default function Home() {
         <span>This portfolio site is under construction...</span>
       </Row>
       <Row className="centered">
-        <WIPImage/>
+        <WIPImage color="#1890ff"/>
       </Row>
     </Main>
   )
