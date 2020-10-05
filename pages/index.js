@@ -22,7 +22,7 @@ export default function Home() {
     <Main>
       <Head>
         <title>Kharenzze</title>
-        <link rel="icon" href="/favicon.ico"/>
+        <link rel="icon" type="image/svg+xml" href="/portfolio/developer_emoji.svg"/>
       </Head>
       <AnimatedRow className={cssAnimated}>
           <h1>Paolo Raez</h1>
