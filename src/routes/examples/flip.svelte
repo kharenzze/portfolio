@@ -1,14 +1,16 @@
 <script lang="ts">
   let right = false
-  const onClick = () => right = !right
+  const onClick = () => {
+    right = !right
+  }
 </script>
 
 <svelte:head>
-	<title>Flip</title>
+  <title>Flip</title>
 </svelte:head>
 
 <div class="container">
-  <div class="box" class:right on:click={onClick}/>
+  <div class="box" class:right on:click={onClick} />
 </div>
 
 <style>
