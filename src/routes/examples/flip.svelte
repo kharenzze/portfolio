@@ -1,8 +1,6 @@
-<script module="ts">
-  let right = false;
-  const onClick = () => {
-    right = !right
-  }
+<script lang="ts">
+  let right = false
+  const onClick = () => right = !right
 </script>
 
 <svelte:head>
