@@ -1,8 +1,15 @@
 <script lang="ts">
+  import { flip } from 'svelte/animate'
+  import { crossfade } from 'svelte/transition'
   let right = false
   const onClick = () => {
     right = !right
   }
+
+  const [send, receive] = crossfade({
+    fallback: (node, params) => ({ delay: 0 }),
+    duration: 1000,
+  })
 </script>
 
 <svelte:head>
@@ -10,7 +17,15 @@
 </svelte:head>
 
 <div class="container">
-  <div class="box" class:right on:click={onClick} />
+  {#key right}
+    <div
+      class="box"
+      class:right
+      on:click={onClick}
+      in:send={{ key: right }}
+      out:receive={{ key: right }}
+    />
+  {/key}
 </div>
 
 <style>
