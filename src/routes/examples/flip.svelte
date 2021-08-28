@@ -1,18 +1,19 @@
 <script module="ts">
-  import Box from '../../lib/Box.svelte'
   let x = 1;
-  console.log('x', x)
+  const onClick = () => 
+    console.log('x', x)
 </script>
 
 <svelte:head>
 	<title>Flip</title>
 </svelte:head>
 
-<p>Hola</p>
-<Box/>
+<div class="box" on:click={onClick}/>
 
 <style>
-  p {
-    color: red;
+  .box {
+    background-color: red;
+    height: 40px;
+    width: 40px;
   }
 </style>
