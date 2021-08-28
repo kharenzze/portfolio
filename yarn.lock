@@ -317,6 +317,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"Portfolio@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "Portfolio@workspace:."
+  dependencies:
+    "@fontsource/fira-mono": ^4.2.2
+    "@lukeed/uuid": ^2.0.0
+    "@sveltejs/kit": next
+    "@types/cookie": ^0.4.0
+    "@typescript-eslint/eslint-plugin": ^4.19.0
+    "@typescript-eslint/parser": ^4.19.0
+    cookie: ^0.4.1
+    eslint: ^7.22.0
+    eslint-config-prettier: ^8.1.0
+    eslint-plugin-svelte3: ^3.2.0
+    prettier: ~2.2.1
+    prettier-plugin-svelte: ^2.2.0
+    svelte: ^3.34.0
+    svelte-check: ^2.0.0
+    svelte-preprocess: ^4.0.0
+    tslib: ^2.0.0
+    typescript: ^4.0.0
+  languageName: unknown
+  linkType: soft
+
 "abbrev@npm:1":
   version: 1.1.1
   resolution: "abbrev@npm:1.1.1"
@@ -2584,27 +2608,3 @@ resolve@^1.20.0:
   checksum: 343617202af32df2a15a3be36a5a8c0c8545208f3d3dfbc6bb7c3e3b7e8c6f8e7485432e4f3b88da3031a6e20afa7c711eded32ddfb122896ac5d914e75848d5
   languageName: node
   linkType: hard
-
-"~TODO~@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "~TODO~@workspace:."
-  dependencies:
-    "@fontsource/fira-mono": ^4.2.2
-    "@lukeed/uuid": ^2.0.0
-    "@sveltejs/kit": next
-    "@types/cookie": ^0.4.0
-    "@typescript-eslint/eslint-plugin": ^4.19.0
-    "@typescript-eslint/parser": ^4.19.0
-    cookie: ^0.4.1
-    eslint: ^7.22.0
-    eslint-config-prettier: ^8.1.0
-    eslint-plugin-svelte3: ^3.2.0
-    prettier: ~2.2.1
-    prettier-plugin-svelte: ^2.2.0
-    svelte: ^3.34.0
-    svelte-check: ^2.0.0
-    svelte-preprocess: ^4.0.0
-    tslib: ^2.0.0
-    typescript: ^4.0.0
-  languageName: unknown
-  linkType: soft
