@@ -1,23 +1,24 @@
 <script lang="ts">
-	import Header from '$lib/header/Header.svelte';
-	import '../app.css';
+  import Header from '$lib/header/Header.svelte'
+  import '../app.css'
+  import '../lib/styles/surfaces.css'
 </script>
 
 <Header />
 
 <main>
-	<slot />
+  <slot />
 </main>
 
 <style>
-	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 1024px;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
 </style>
