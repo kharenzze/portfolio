@@ -11,26 +11,21 @@
   }, 500)
 </script>
 
-{#key hidden}
-  <div
-    class="portfolio-card card"
-    class:hidden
-    on:introend={end}
-    use:inscreen
-  >
-    <p>
-      Lorem fistrum qué dise usteer caballo blanco caballo negroorl torpedo a peich diodenoo a
-      gramenawer. Hasta luego Lucas.
-    </p>
-  </div>
-{/key}
+<div class="portfolio-card card" class:hidden on:introend={end} use:inscreen>
+  <p>
+    Lorem fistrum qué dise usteer caballo blanco caballo negroorl torpedo a peich diodenoo a
+    gramenawer. Hasta luego Lucas.
+  </p>
+</div>
 
 <style>
   .card {
     max-width: 300px;
     transform: perspective(100px) rotateY(-3deg);
+    transition: transform 2s ease-out 1s, opacity 1s linear 0s;
   }
   .hidden {
     opacity: 0;
+    transform: none;
   }
 </style>
