@@ -1,5 +1,4 @@
 <script lang="ts">
-  import Header from '$lib/header/Header.svelte'
   import '../app.css'
   import '../lib/styles/surfaces.css'
 </script>
