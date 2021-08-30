@@ -4,8 +4,6 @@
   import '../lib/styles/surfaces.css'
 </script>
 
-<Header />
-
 <main>
   <slot />
 </main>
